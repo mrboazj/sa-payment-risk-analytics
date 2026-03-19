@@ -1,2 +1,17 @@
-# sa-payment-risk-analysis
-Synthetic payment risk analytics project using Python and SQL-style logic to engineer features, score transaction risk, and generate reporting outputs.
+# sa-payment-risk-analytics
+
+A portfolio-ready analytics project that explores payment transaction risk using synthetic collections data.
+
+## Objective
+To identify patterns associated with failed transactions and build a simple risk scoring model using engineered features.
+
+## Key Features
+- Feature engineering on transaction data
+- Rule-based risk scoring
+- Merchant-level performance analysis
+- SQL-style analytical queries
+
+## How to run
+```bash
+pip install -r requirements.txt
+python src/run_analysis.py
